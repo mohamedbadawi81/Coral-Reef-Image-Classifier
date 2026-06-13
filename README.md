@@ -41,12 +41,7 @@ git clone https://github.com/your-username/coral-reef-classifier.git
 cd coral-reef-classifier
 ```
 
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the App
+### 2. Run the App
 ```bash
 streamlit run app/streamlit_app.py
 ```
