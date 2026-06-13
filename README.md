@@ -18,18 +18,17 @@ An advanced deep learning platform for identifying coral reef species from under
 
 ```text
 coral-split/
-├── app/                # Streamlit application
-│   └── streamlit_app.py
-├── src/                # Core logic package
-│   ├── data_loader.py  # Data augmentation & loading
-│   ├── models.py       # Model factory & definitions
-│   ├── train.py        # Generic training pipeline
-│   └── utils.py        # Visualization & utilities
-├── notebooks/          # Experimental Jupyter notebooks
+├── app.py                # Streamlit application
+├── notebooks/
+  ├──ConvNeXt.ipynb
+  ├──ViT.ipynb
+  ├──ResNet-50.ipynb          
+  ├──MobileNet.ipynb
+  ├──DenseNet121.ipynb
+  ├──EfficientNet-B0.ipynb
 ├── Dataset/            # Split into train/val/test
 ├── saved_models/       # Production-ready model weights (.pth)
 ├── plots/              # Training history & confusion matrices
-├── requirements.txt    # Dependency list
 └── README.md           # Documentation
 ```
 
@@ -43,7 +42,7 @@ cd coral-reef-classifier
 
 ### 2. Run the App
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app.py
 ```
 Or simply use the provided `Run.bat` on Windows.
 
