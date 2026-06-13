@@ -205,7 +205,7 @@ Run.bat
 
 The deployed application is available here:
 
-[Open the Streamlit App](https://coral-reef-classifier.streamlit.app/)
+[Open the Streamlit App](https://coral-reef-classifier.App.py/)
 
 ---
 
